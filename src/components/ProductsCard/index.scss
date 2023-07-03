@@ -1,0 +1,41 @@
+@use "../../sass/variables" as *;
+
+.home__card{
+    width: 330px;
+    height: 337px;
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    font-size: 14px;
+    line-height: 20px;
+    
+    border-radius: 8px;
+    border: 1px solid #B7B7B7;
+    
+
+   p{
+    padding-top: 15px;
+    margin-bottom: 15px;
+   }
+
+   button{
+    width: 128px;
+    height: 24px;
+    
+    border: 1px solid rgba(0, 0, 0, 0.30);
+    background: #0C70F2;
+   }
+
+   a{
+    text-decoration: none;
+    color: #FFF;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    }
+}
+
+    
+
